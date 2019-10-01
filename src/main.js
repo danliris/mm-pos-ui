@@ -19,10 +19,10 @@ export async function configure(aurelia) {
     .feature('components')
     .plugin("aurelia-api", config => {
 
-    var auth = "https://mm-auth-api-dev.azurewebsites.net/v1/";
-    var core = "https://mm-core-api-dev.azurewebsites.net/v1/core";
-    var pos = "https://mm-pos-api-dev.azurewebsites.net/v1/";
-    var inventory = "https://mm-inventory-api-dev.azurewebsites.net/v1/inventory/";
+    var auth = "https://mm-auth-api.azurewebsites.net/v1/";
+    var core = "https://mm-core-api.azurewebsites.net/v1/core";
+    var pos = "https://mm-pos-api.azurewebsites.net/v1/";
+    var inventory = "https://mm-inventory-api.azurewebsites.net/v1/inventory/";
            
       config.registerEndpoint('auth', auth);
       config.registerEndpoint('core', core);

@@ -8,7 +8,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "report",
-            permission: { "GIS.01" : 1, "GLP.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
+            permission: { "GIS.01" : 1, "GLM.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
         }
     },
     {
@@ -20,7 +20,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "report",
-            permission: { "GIS.01" : 1, "GLP.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
+            permission: { "GIS.01" : 1, "GLM.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
          }
     },
     {
@@ -32,7 +32,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "report",
-            permission: { "GIS.01" : 1, "GLP.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
+            permission: { "GIS.01" : 1, "GLM.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
         }
     },
     {
@@ -44,6 +44,6 @@ module.exports = [
         auth: true,
         settings: {
             group: "report",
-            permission: { "GIS.01" : 1, "GLP.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
+            permission: { "GIS.01" : 1, "GLM.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
          }
     }]
