@@ -9,7 +9,8 @@ module.exports = [
         settings: {
             group: "transaction",
             permission: { "GIS.01" : 1, "GLM.01" : 1, "WHO.01" : 1, "SIB.01":1, "MMS.01" : 1  }
-     },
+        }
+    },
     {
         route: 'salesReturn',
         name: 'salesReturn',
